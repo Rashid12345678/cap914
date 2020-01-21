@@ -1,0 +1,45 @@
+       int b = 0;
+            int c = 0;
+            int d= 0;
+            int z= 0;
+            Console.WriteLine("ente the first conis");
+            int a = int.Parse(Console.ReadLine());
+             b = a * a;
+            Console.WriteLine("enter the second coins");
+            int f = int.Parse(Console.ReadLine());
+               c = f * f;
+            Console.WriteLine("enter the third coins");
+            int e = int.Parse(Console.ReadLine());
+              d = e * e;
+            Console.WriteLine("enter the 4 coins");
+            int g = int.Parse(Console.ReadLine());
+                z = g * g;
+            int p = b + c + d + z;
+            Console.WriteLine("sum of all is +" + p);
+
+
+
+
+
+
+
+
+double rs_m =6.95;
+            double rs_l =5.95;
+         
+            Console.WriteLine("ente the meter reading");
+            int unit = int.Parse(Console.ReadLine());
+            if (unit > 100)
+            {
+                int unit_m = unit - 100;
+                double unit_m_c = unit_m * rs_m;
+                double unit_l = 100 * rs_l;
+                Double sum = unit_m_c + unit_l;
+                Console.WriteLine("totale meter reading is " + sum);
+            }
+             else if (unit<=100)
+            {
+                double sum2 = unit * rs_l;
+                Console.WriteLine("totale meter reading is " + sum2);
+            }
+
